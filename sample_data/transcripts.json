@@ -1,0 +1,48 @@
+{
+  "requestId": "mock-request-2",
+  "records": {"totalRecords": 3, "currentPageSize": 3, "currentPageNumber": 0},
+  "callTranscripts": [
+    {
+      "callId": "7782342274025937895",
+      "transcript": [
+        {"speakerId": "s1", "topic": "Intro", "sentences": [
+          {"start": 0, "end": 4200, "text": "Thanks for joining, James."},
+          {"start": 4200, "end": 9800, "text": "How do you track shipments today?"}
+        ]},
+        {"speakerId": "s2", "topic": "Pain points", "sentences": [
+          {"start": 9800, "end": 16000, "text": "Mostly in shared spreadsheets."},
+          {"start": 16000, "end": 23000, "text": "Customers call us for every status update, which takes hours each day."}
+        ]},
+        {"speakerId": "s1", "topic": "Next steps", "sentences": [
+          {"start": 23000, "end": 29000, "text": "Let's set up a demo for your ops team next week."}
+        ]}
+      ]
+    },
+    {
+      "callId": "7782342274025937896",
+      "transcript": [
+        {"speakerId": "s3", "topic": "Demo", "sentences": [
+          {"start": 0, "end": 6000, "text": "Here is the patient scheduling dashboard."}
+        ]},
+        {"speakerId": "s4", "topic": "Security", "sentences": [
+          {"start": 6000, "end": 12000, "text": "Where is the data stored, and who can access it?"}
+        ]},
+        {"speakerId": "s5", "topic": "Pricing", "sentences": [
+          {"start": 12000, "end": 18000, "text": "We would need pricing for twelve locations."}
+        ]}
+      ]
+    },
+    {
+      "callId": "7782342274025937897",
+      "transcript": [
+        {"speakerId": "s7", "topic": "Pilot results", "sentences": [
+          {"start": 0, "end": 7000, "text": "The pilot went well, our team saved about five hours a week."},
+          {"start": 7000, "end": 12000, "text": "We are ready to move to an annual plan."}
+        ]},
+        {"speakerId": "s6", "topic": "Next steps", "sentences": [
+          {"start": 12000, "end": 17000, "text": "Great, I will send the contract to your legal team today."}
+        ]}
+      ]
+    }
+  ]
+}

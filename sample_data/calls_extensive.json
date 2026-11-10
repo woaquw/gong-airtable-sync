@@ -1,0 +1,55 @@
+{
+  "requestId": "mock-request-1",
+  "records": {"totalRecords": 3, "currentPageSize": 3, "currentPageNumber": 0},
+  "calls": [
+    {
+      "metaData": {
+        "id": "7782342274025937895",
+        "url": "https://app.gong.io/call?id=7782342274025937895",
+        "title": "Discovery call - Northwind Logistics",
+        "started": "2026-11-03T14:00:00Z",
+        "duration": 1860,
+        "direction": "Outbound",
+        "system": "Zoom"
+      },
+      "parties": [
+        {"id": "p1", "name": "Anna Kowalska", "emailAddress": "anna@acme-saas.example", "affiliation": "Internal", "speakerId": "s1"},
+        {"id": "p2", "name": "James Carter", "emailAddress": "james.carter@northwind.example", "affiliation": "External", "speakerId": "s2"}
+      ],
+      "content": {"brief": "Northwind tracks shipments in spreadsheets and wants automated status updates. Budget is approved for Q1; next step is a demo for their ops team."}
+    },
+    {
+      "metaData": {
+        "id": "7782342274025937896",
+        "url": "https://app.gong.io/call?id=7782342274025937896",
+        "title": "Demo - Bluefield Clinics",
+        "started": "2026-11-05T10:30:00Z",
+        "duration": 2700,
+        "direction": "Conference",
+        "system": "Google Meet"
+      },
+      "parties": [
+        {"id": "p3", "name": "Mark Nowak", "emailAddress": "mark@acme-saas.example", "affiliation": "Internal", "speakerId": "s3"},
+        {"id": "p4", "name": "Sara Lee", "emailAddress": "sara.lee@bluefield.example", "affiliation": "External", "speakerId": "s4"},
+        {"id": "p5", "name": "Tom Reed", "emailAddress": "tom.reed@bluefield.example", "affiliation": "External", "speakerId": "s5"}
+      ],
+      "content": {"brief": "Product demo for two clinic managers. Main concern is data privacy; they asked for a security overview and pricing for 12 locations."}
+    },
+    {
+      "metaData": {
+        "id": "7782342274025937897",
+        "url": "https://app.gong.io/call?id=7782342274025937897",
+        "title": "Follow-up - Orbit Retail",
+        "started": "2026-11-07T16:15:00Z",
+        "duration": 900,
+        "direction": "Inbound",
+        "system": "Phone"
+      },
+      "parties": [
+        {"id": "p6", "name": "Anna Kowalska", "emailAddress": "anna@acme-saas.example", "affiliation": "Internal", "speakerId": "s6"},
+        {"id": "p7", "name": "Priya Shah", "emailAddress": "priya@orbitretail.example", "affiliation": "External", "speakerId": "s7"}
+      ],
+      "content": {"brief": "Customer confirmed the pilot results and wants to sign an annual contract. Legal review expected next week."}
+    }
+  ]
+}
