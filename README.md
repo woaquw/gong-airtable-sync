@@ -4,7 +4,7 @@ Pulls sales call data from **Gong** (title, date, duration, reps, customers, AI 
 
 Built to replace manual copy-paste: a sync that takes hours by hand runs in seconds, and running it again never creates duplicates.
 
-<!-- ![Airtable table with synced calls](docs/airtable-screenshot.png) -->
+![Airtable table with synced calls](docs/airtable-screenshot.png)
 
 
 ## Features
